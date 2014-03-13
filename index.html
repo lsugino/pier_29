@@ -8,6 +8,9 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
     <title>Pier 29</title>
+    <link rel="icon" 
+      type="image/ico" 
+      href="wheel.ico">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +25,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </head>
 
-
   <body>
     <!-- navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
@@ -31,17 +33,18 @@
           <a href="../" class="navbar-brand">Pier 29</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/" target="_blank">Home</a></li>
-          <li><a href="/" target="_blank">About</a></li>
-          <li><a href="/" target="_blank">Menu</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Menu</a></li>
           <li><a href="/" target="_blank">Find Us</a></li>
         </ul>
       </div>
     </div>
 
     <!-- home -->
-    <div class="container marg" id="home">
-
+    <div class="container home marg" id="home">
+      <div id="home_well">
+      </div>
     </div>
 
     <!-- about -->
@@ -71,7 +74,7 @@
 
         <div class="col-xs-6 col-md-3">
           <a href="#" class="thumbnail">
-            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+            <img src="http://s3-media4.ak.yelpcdn.com/bphoto/2Swt-OnkkfbGL_1OUioGrw/l.jpg" alt="...">
           </a>
           <div class="caption">
             <h3 class="center">Early Bird's</h3>
@@ -91,7 +94,7 @@
 
         <div class="col-xs-6 col-md-3">
           <a href="#" class="thumbnail">
-            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+            <img src="http://s3-media2.ak.yelpcdn.com/bphoto/LbBj04U9IGFt8kRwe_9gnQ/l.jpg" alt="...">
           </a>
           <div class="caption">
             <h3>Lunch Menu</h3>
@@ -101,7 +104,7 @@
 
         <div class="col-xs-6 col-md-3">
           <a href="#" class="thumbnail">
-            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/ppqeBkrH-lZhtlkRCPoUyw/l.jpg" alt="...">
           </a>
           <div class="caption">
             <h3>Dinner Menu</h3>
@@ -111,17 +114,18 @@
       </div>
     </div>
 
-
     <!-- find us -->
     <div class="container marg" id="find_us">
       <div class="row">
 
-        <div class="col-md-4">
-          <p>1148 Ballena Blvd</p>
-          <p>Alameda, CA 94501</p>
-          <p>(510) 865-5088</p>
-          <p>Sun-Thur: 9 A.M. - 10 P.M.</p>
-          <p>Fri & Sat: 9 A.M. - 11 P.M.</p>
+        <div class="col-md-4" id="address">
+          <h3>Find Us</h3>
+          <p>1148 Ballena Blvd<br>
+          Alameda, CA 94501<br>
+          (510) 865-5088</p>
+          <p>SUNDAY - THURSDAY<br> 9 A.M. - 10 P.M.</p>
+          <p>FRIDAY - SATURDAY<br>
+           9 A.M. - 11 P.M.</p>
         </div>
 
         <div class="col-md-8">
@@ -130,10 +134,8 @@
         </div>
 
       </div>
-
     </div>
-
-</div>
+  </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

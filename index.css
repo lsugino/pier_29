@@ -1,5 +1,17 @@
-#about {
-	margin-top: 65px;
+.navbar {
+	margin-top: 35px;
+	background: none;
+	border: none;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-size: 2em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 1.5em;
 }
 
 .marg {
@@ -11,4 +23,20 @@
   height: 300px;
   background-color: #CCC;
   cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur);
+}
+
+#address {
+	text-align: center;
+}
+
+.caption {
+	text-align: center;
+}
+
+#home {
+	background: url("http://vicco.me/wp-content/uploads/2014/02/Steak-Beff-Cili-Tasty.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
 }
