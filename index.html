@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pier 29">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
     <title>Pier 29</title>
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,8 +19,12 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   </head>
+
+
   <body>
+    <!-- navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -31,9 +39,106 @@
       </div>
     </div>
 
+    <!-- home -->
+    <div class="container marg" id="home">
+
+    </div>
+
+    <!-- about -->
+    <div class="container marg" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media2.ak.yelpcdn.com/bphoto/d14giH_mLwIt4AUh4Z7B8w/l.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media2.ak.yelpcdn.com/bphoto/HKzV1KYlpEJ-ZDEb-9gG7Q/l.jpg" alt="...">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"><p>Pier 29 has moved from Oakland to Ballena Bay in Alameda. The new restaurant is located at the scenic Ballena Isle Marina overlooking the San Francisco Bay. It is centrally located with plenty of free parking.</p></div>
+        <div class="col-md-4"><p>The Pier 29 menu continues to offer a wide variety of selections featuring Angus prime rib, steaks, seafood, chicken, pasta, and much more. The popular “Early bird” menu is offered seven days a week. There is a full service bar featuring all the latest cocktails, two large outdoor dining patios overlooking the water, and ample banquet facilities. There is a view of the water from every table.</p></div>
+        <div class="col-md-4"><p>The Pier’s tradition for good food, friendly service, and comfortable atmosphere is continuing at beautiful Ballena Bay. The restaurant is open seven days a week for breakfast, lunch, and dinner. We invite you to check out our extensive menus. There is something for everybody at the “Pier”.</p></div>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container marg" id="menu">
+      <div class="row">
+
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+          </a>
+          <div class="caption">
+            <h3 class="center">Early Bird's</h3>
+            <p>View early bird menu <span class="glyphicon glyphicon-new-window"></span></p>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+          </a>
+          <div class="caption">
+            <h3>Breakfast Menu</h3>
+            <p>View breakfast menu <span class="glyphicon glyphicon-new-window"</p>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+          </a>
+          <div class="caption">
+            <h3>Lunch Menu</h3>
+            <p>View lunch menu <span class="glyphicon glyphicon-new-window"</p>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="http://s3-media1.ak.yelpcdn.com/bphoto/IZE_DpFmOExMIL0wqrxwFQ/l.jpg" alt="...">
+          </a>
+          <div class="caption">
+            <h3>Dinner Menu</h3>
+            <p>View dinner menu <span class="glyphicon glyphicon-new-window"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- find us -->
+    <div class="container marg" id="find_us">
+      <div class="row">
+
+        <div class="col-md-4">
+          <p>1148 Ballena Blvd</p>
+          <p>Alameda, CA 94501</p>
+          <p>(510) 865-5088</p>
+          <p>Sun-Thur: 9 A.M. - 10 P.M.</p>
+          <p>Fri & Sat: 9 A.M. - 11 P.M.</p>
+        </div>
+
+        <div class="col-md-8">
+          <div id="map_canvas">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
