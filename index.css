@@ -1,15 +1,18 @@
 /* LAYOUT *****************/
 
 body {
-	font-family: 'Lora', serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	/*font-family: 'Lora', serif;*/
 	background-color: #151515;
 }
 
 #home {
-	background: url("http://p1.pichost.me/i/8/1308827.jpg") no-repeat center center fixed;
+	background: url("http://everydaylife.globalpost.com/DM-Resize/photos.demandstudios.com/getty/article/129/71/78482532.jpg?w=600&h=600&keep_ratio=1&webp=1") no-repeat center center fixed;
+/*	background: url("http://p1.pichost.me/i/8/1308827.jpg") no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 850px;
+	height: 830px;
 	width: 100%;
 }
 
@@ -27,7 +30,6 @@ body {
 }
 
 #home_well > h1 {
-	font-family: 'Lora', serif;
 	font-weight: bold;
 	color: white;
 	font-size: 8em;
